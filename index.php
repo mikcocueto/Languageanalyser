@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
 </head>
 <body>
+    <div class="container">
     <h1>Language Distribution Identifier</h1>
     <form id="classificationForm">
         <label for="sentence">Enter a sentence:</label><br>
-        <input type="text" id="sentence" name="sentence"><br><br>
-        <button type="button" id="identifyButton">Identify</button>
+        <input type="text" id="sentence" placeholder="Your sentence here..." name="sentence"><br><br>
+        <button type="button" id="identifyButton">Identify The Language</button>
     </form>
     <div id="resultContainer"></div>
+    
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
